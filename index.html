@@ -5,31 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WORLD CLOCK</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
-      <header>
-        <h1>WORLD CLOCK</h1>
-      </header>
+      <h1>WORLD CLOCK</h1>
       <select>
         <option>Choose a city</option>
         <option>London</option>
         <option>Accra</option>
         <option>Tokyo</option>
       </select>
-      <div>
-        <h2>New York</h2>
-        <div class="date">February 12th 2024</div>
-        <div class="time">12:34:29 AM</div>
+      <div class="city">
+        <div>
+          <h2>London</h2>
+          <div class="date">February 12th 2024</div>
+        </div>
+        <div class="time">12:34:29 <small>AM</small></div>
       </div>
-      <div>
-        <h2>Abidjan</h2>
-        <div class="date">February 12th 2024</div>
-        <div class="time">13:34:29 PM</div>
+      <div class="city">
+        <div>
+          <h2>New York</h2>
+          <div class="date">February 12th 2024</div>
+        </div>
+        <div class="time">07:34:29 <small>AM</small></div>
+      </div>
+      <div class="city">
+        <div>
+          <h2>Accra</h2>
+          <div class="date">February 12th 2024</div>
+        </div>
+        <div class="time">13:34:29 <small>PM</small></div>
       </div>
     </div>
     <footer>
-      Coded with 🩷 by Francisca Agyekum Poku and open sourced on
+      Coded with 🩷 by <strong>Francisca Agyekum Poku</strong> and open sourced
+      on
       <a href="https://github.com/franciscaap/world-clock" target="_blank"
         >GitHub</a
       >
