@@ -17,32 +17,34 @@
   <body>
     <div class="container">
       <h1>WORLD CLOCK</h1>
-      <select>
-        <option>Choose a city</option>
-        <option>London</option>
-        <option>Accra</option>
-        <option>Tokyo</option>
+      <select id="city">
+        <option value="">Choose a city</option>
+        <option value="Europe/Moscow">Moscow</option>
+        <option value="Africa/Accra">Accra</option>
+        <option value="Asia/Tokyo">Tokyo</option>
       </select>
-      <div class="city" id="london">
-        <div>
-          <h2>London</h2>
-          <div class="date"></div>
+      <div id="cities">
+        <div class="city" id="london">
+          <div>
+            <h2>London</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time"></div>
-      </div>
-      <div class="city" id="new-york">
-        <div>
-          <h2>New York</h2>
-          <div class="date"></div>
+        <div class="city" id="new-york">
+          <div>
+            <h2>New York</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time"></div>
-      </div>
-      <div class="city" id="johannesburg">
-        <div>
-          <h2>Johannesburg</h2>
-          <div class="date"></div>
+        <div class="city" id="johannesburg">
+          <div>
+            <h2>Johannesburg</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time"></div>
       </div>
     </div>
     <footer>
