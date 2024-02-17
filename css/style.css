@@ -1,19 +1,24 @@
 body {
   font-family: "Outfit", sans-serif;
-  background-color: #f3f6fb;
+  background-color: #bfb2a6;
+  color: #342314;
 }
 .container {
-  background-color: #ffffff;
-  max-width: 600px;
+  background-color: #bfb2a6;
+  max-width: 700px;
+  height: 600px;
   padding: 30px;
   margin: 60px auto;
-  border-radius: 10px;
-  box-shadow: rgba(114, 122, 239, 0.35) 0px 5px 15px;
+  border-radius: 25%;
+  box-shadow: rgb(255 255 255 / 73%) 0px 5px 15px;
 }
 h1 {
   text-align: center;
-  font-size: 38px;
-  font-weight: 600;
+  font-size: 44px;
+  font-weight: 700;
+  margin-top: 30px;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #442d18, 0 0 30px #fff,
+    0 0 40px #fff, 0 0 55px #fff, 0 0 70px #fff;
 }
 h2 {
   margin: 0 0 5px;
@@ -21,17 +26,26 @@ h2 {
   font-weight: 600;
 }
 select {
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
   display: block;
   font-size: 18px;
   padding: 10px;
   border-radius: 6px;
+  box-shadow: rgb(255 255 255 / 73%) 0px 5px 15px;
+  border: #bfb2a6;
+  background-color: #5b4531;
+  color: #bfb2a6;
+}
+.cities {
+  margin: 0 50px 40px;
 }
 .city {
   display: flex;
   justify-content: space-between;
-  margin: 20px 0;
-  padding: 20px 0;
+  margin: 20px 20px;
+  padding: 20px 20px;
   border-bottom: 1px dashed rgba(0, 0, 0, 0.35);
 }
 .city:last-child {
@@ -53,4 +67,7 @@ select {
 footer {
   text-align: center;
   opacity: 0.8;
+}
+a {
+  color: #a07b01;
 }
